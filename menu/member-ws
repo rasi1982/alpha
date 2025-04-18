@@ -27,7 +27,7 @@ checking_sc() {
     echo -e "     \033[0;33mBuy access permissions for scripts${NC}"
     echo -e "             \033[0;33mContact Admin :${NC}"
     echo -e "      ${Green}WhatsApp${NC} wa.me/087726917005"
-    echo -e "         \033[0;36mTelegram${NC} HOKAGE"
+    echo -e "         \033[0;36mTelegram${NC} FRosi_46"
     echo -e "${OR}────────────────────────────────────────────${NC}"
     exit
   fi
