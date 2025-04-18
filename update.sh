@@ -32,12 +32,18 @@ res1() {
     chmod +x fv-tunnel 
     bash fv-tunnel
     rm -rf fv-tunnel
+    sudo rm -rf /usr/local/sbin/*
     wget https://github.com/rasi1982/alpha/raw/refs/heads/main/menu/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
     rm -rf menu
     rm -rf menu.zip
+    wget -O menu https://github.com/rasi1982/alpha/raw/refs/heads/main/menu/menu
+   sudo mv menu /usr/local/sbin/
+   sudo chmod +x /usr/local/sbin/menu
+
+
 }
 function noobzvpn() {
 wget "${REPO}/noobzvpns.zip"
