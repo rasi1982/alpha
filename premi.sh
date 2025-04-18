@@ -590,7 +590,7 @@ clear
 print_install "Menginstall Dropbear"
 # // Installing Dropbear
 apt-get install dropbear -y > /dev/null 2>&1
-wget -q -O /etc/default/dropbear https://raw.githubusercontent.com/hokagelegend9999/beta/main/config/dropbear.conf
+wget -q -O /etc/default/dropbear https://github.com/rasi1982/alpha/raw/refs/heads/main/config/dropbear.conf
 chmod +x /etc/default/dropbear
 /etc/init.d/dropbear restart
 /etc/init.d/dropbear status
@@ -634,7 +634,7 @@ function ins_openvpn(){
 clear
 print_install "Menginstall OpenVPN"
 #OpenVPN
-wget https://github.com/hokagelegend9999/coklat/raw/refs/heads/main/Fls/openvpn  chmod +x openvpn && ./openvpn
+wget https://github.com/rasi1982/alpha/raw/refs/heads/main/config/openvpn  chmod +x openvpn && ./openvpn
 /etc/init.d/openvpn restart
 print_success "OpenVPN"
 }
@@ -842,6 +842,7 @@ cat >/etc/cron.d/xp_all <<-END
 		SHELL=/bin/sh
 		PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 		2 0 * * * root /usr/local/sbin/xp
+                2 0 * * * root /usr/local/sbin/menu
 	END
 	cat >/etc/cron.d/logclean <<-END
 		SHELL=/bin/sh
