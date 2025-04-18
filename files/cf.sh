@@ -25,14 +25,14 @@ fi
 clear
 apt install jq curl -y
 ###DOM#AIN=installer.my.id
-DOMAIN=hokagevpn.my.id
+DOMAIN=rosicenter5.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
-SUB_DOMAIN=${sub}.hokagevpn.my.id
-CF_ID=kangcepot82@gmail.com
+SUB_DOMAIN=${sub}.rosicenter5.my.id
+CF_ID=panwaslublegapilkada@gmail.com
 CF_KEY=1b484b55e775eed6dc9ecc93de54fb6bbe68a
 ##SUB_DOMAIN=${sub}.installer.my.id
 ##CF_ID=kangcepot82@gmail.com
-##CF_KEY=1b484b55e775eed6dc9ecc93de54fb6bbe68a
+##CF_KEY=c1feca5207e3db081a8d69eae9a5015ec5d4f
 set -euo pipefail
 IP=$(wget -qO- ipinfo.io/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."
