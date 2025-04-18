@@ -190,7 +190,7 @@ echo -e " ${z}╰════════════════╯╰═══
 echo -e "            ${KIRI} ${Green}⇱ ALL FITUR SC TUNNELING ⇲${NC} ${KANAN}"
 echo -e "    ${z}══════════════════════════════════════════════════════${NC}"
 echo -e "           ${z}$NC [${r}01${NC}]$green MENU SSH$NC     ${z}│$NC [${r}05${NC}]$green MENU SSWS$NC  ${z}$NC"
-echo -e "           ${z}$NC [${r}02${NC}]$green MENU VMESS$NC   ${z}│$NC [${r}06${NC}]$green MENU HOKAGEVPN$NC ${z}$NC"
+echo -e "           ${z}$NC [${r}02${NC}]$green MENU VMESS$NC   ${z}│$NC [${r}06${NC}]$green MENU NOOBZVPN$NC ${z}$NC"
 echo -e "           ${z}$NC [${r}03${NC}]$green MENU VLESS$NC   ${z}│$NC [${r}07${NC}]$green SPEEDTEST$NC ${z} $NC"
 echo -e "           ${z}$NC [${r}04${NC}]$green MENU TROJAN$NC  ${z}│$NC [${r}08${NC}]$green MENU UTILITY$NC ${z} $NC"
 echo -e "    ${z}══════════════════════════════════════════════════════${NC}"
