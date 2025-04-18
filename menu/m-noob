@@ -198,18 +198,18 @@ garis
 function unlock(){
 clear
 garis
-echo -e "${GREEN}| \E[44;1;39m      °Hokage UNLOCK°            \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m      °Rosi UNLOCK°            \E[0m|"
 garis
 read -p "username: " user
 HOKAGE --unblock-user $user
 clear
 garis
-echo -e "${GREEN}| \E[44;1;39m      °HokageLegend UNLOCK!°            \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m      °RosiCenter UNLOCK!°            \E[0m|"
 garis
 echo "USERNAME: $user"
 echo "unlocked success!!"
 garis
-echo -e "${GREEN}| \E[44;1;39m      HokageLegend STORE            \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m      RosiCenter STORE            \E[0m|"
 garis
 }
 
@@ -218,7 +218,7 @@ garis
 function remove(){
 clear
 garis
-echo -e "${GREEN}| \E[44;1;39m      HokageLegend UNLOCK            \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m      RosiCenter UNLOCK            \E[0m|"
 garis
 
 read -p "Apakah Anda ingin menghapus semua user? (Y/N): " choice
@@ -236,12 +236,12 @@ fi
 
 clear
 garis
-echo -e "${GREEN}| \E[44;1;39m      °HokageLegend UNLOCK!°            \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m      °RosiCenter UNLOCK!°            \E[0m|"
 garis
 echo "USERNAME: $user"
 echo "unlocked success!!"
 garis
-echo -e "${GREEN}| \E[44;1;39m     HokageLegend STORE            \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m     RosiCenter STORE            \E[0m|"
 garis
 }
 
@@ -250,7 +250,7 @@ garis
 
 clear
 garis
-echo -e "${GREEN} \E[44;1;39m     ALL MENU HOKAGEVPN            \E[0m"
+echo -e "${GREEN} \E[44;1;39m     ALL MENU ROSIVPN            \E[0m"
 garis
 
 
@@ -264,7 +264,7 @@ echo -e "[06] SHOW ALL USER HOKAGE"
 echo -e "[07] REMOVE ALL USER HOKAGE"
 echo -e "[00] BACK TO MAIN MENU"
 garis
-echo -e "${GREEN} \E[44;1;39m            HokageLegend STORE            \E[0m"
+echo -e "${GREEN} \E[44;1;39m            RosiCenter STORE            \E[0m"
 garis
 echo -e ""
 echo
