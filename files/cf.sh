@@ -19,7 +19,7 @@ if [ $MYIP = $MYIP ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
 echo -e "${NC}${RED}Permission Denied!${NC}";
-echo -e "${NC}${LIGHT}Fuck You!!"
+echo -e "${NC}${LIGHT}Izin Dulu Sama Rasi!!"
 exit 0
 fi
 clear
@@ -30,9 +30,6 @@ sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
 SUB_DOMAIN=${sub}.rosicenter5.my.id
 CF_ID=panwaslublegapilkada@gmail.com
 CF_KEY=1b484b55e775eed6dc9ecc93de54fb6bbe68a
-##SUB_DOMAIN=${sub}.installer.my.id
-##CF_ID=kangcepot82@gmail.com
-##CF_KEY=c1feca5207e3db081a8d69eae9a5015ec5d4f
 set -euo pipefail
 IP=$(wget -qO- ipinfo.io/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."
