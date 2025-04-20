@@ -56,6 +56,7 @@ systemctl restart noobzvpns
 print_success "NOOBZVPN"
 }
 netfilter-persistent
+ rm -rf update.sh
 clear
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e " \e[1;97;101m UPDATE SCRIPT SEDANG BERJALAN !             \e[0m"
